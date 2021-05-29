@@ -5,7 +5,7 @@ The goal of this exercise is to implement in python3.7 a microservice performing
 This service is exposed using `uwsgi` which creates 4 worker processes to handle concurrent requests. I chose `Flask` as the web framework to integrate with `uwsgi`
 
 ### Prerequisites:
-This project does not include a migration mechanism such as `Flask-Migrate`. There is at the root of the project a file called `init_db.sql` with the SQL DDL queries to initialize the database.
+This project does not include a migration mechanism such as `Flask-Migrate`. There is at the root of the project a file called `init_db.sql` with the SQL DDL queries to initialize the database. This is a manual step.
 
 ### Starting the application
 Build and run the application using docker-compose. The `.env` file is included for demonstrational purposes, as `.env` files should not be versioned. 
